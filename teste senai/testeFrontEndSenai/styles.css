@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Hanken+Grotesk:wght@900&display=swap');
+
+.fundo {
+    background-image: url(assets/Background.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 99vw;
+}
+
+.cabeca {
+    color: white;
+    padding: 2% 3%;
+    font-family: 'Anton', sans-serif;
+    font-size: xx-large;
+}
+
+.seja {
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-size: 150px;
+    font-style: italic;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.botao_div {
+    display: flex;
+    justify-content: center;
+}
+
+.botao {
+    background-color: yellow;
+    padding: 2%;
+    margin-top: 5%;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: large;
+    border: transparent;
+    border-radius: 2%;
+    text-decoration: none;
+}
+
+.parte2 {
+    background-color: #141414;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    height: 60vh;
+    width: 99vw;
+}
+
+.parte2a {
+    width: 50vw;
+
+}
+
+.parte2aa {
+    color: #F9EF23;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    padding: 5%;
+}
+
+.parte2ab {
+    font-size: 20px;
+    font-family: 'Hanken Grotesk', sans-serif;
+    line-height: 25px;
+    padding: 5%;
+}
+
+.parte2ac {
+    font-size: 30px;
+    color: white;
+    padding: 5%;
+}
+.link_saiba{
+    color: white;
+}
+.parte2b {
+    width: 20vw;
+    margin-top: 3%;   
+}
+
+.parte2b img {
+    width: 300px;
+    object-fit: cover;
+    object-position: 0px 5px;
+    
+}
+.parte2c {
+    width: 30vw;
+    margin-top: 5%;
+    margin-left: 5%;
+    /* height: 50vh; */   
+}
+.foto1{
+    height: 400px;
+    width: 200px;
+}
+.parte2c img {
+    height: 450px;
+    width: 300px;
+    object-fit: cover;
+    object-position: -200px 0px;
+}
+footer{
+    background-color: #F9EF23;
+    color: #141414;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    width: 99vw;
+}
+footer div{
+    width: 33%;
+    text-align: center;
+}
+h1{
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
+h2{
+    padding: 3%;
+}
